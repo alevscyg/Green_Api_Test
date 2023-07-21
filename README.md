@@ -30,7 +30,7 @@
 ## Installation
 
 ```bash
-$ npm install
+npm install
 npm i cross-env
 ```
 
@@ -39,10 +39,10 @@ npm i cross-env
 
 ```bash
 # start green_api in watch mode 
-$ npm run start:dev green_api
+npm run start:dev green_api
 
 # start m2 films in watch mode 
-$ npm run start:dev m2
+npm run start:dev m2
 
 ```
 
