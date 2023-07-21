@@ -31,8 +31,6 @@
 
 ```bash
 npm install
-npm i cross-env
-npm i nestjs/swagger
 ```
 
 ## Running the app
