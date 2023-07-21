@@ -11,6 +11,6 @@ export class M2Controller {
     const message = context.getMessage();
     channel.ack(message);
 
-    return this.m2Service.getHello()
+    return await this.m2Service.getHello()
   }
 }
