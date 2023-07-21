@@ -7,7 +7,7 @@ export class AppController {
   @Inject('M2_SERVICE') private rabbitM2Service: ClientProxy) {}
 
   @Get()
-  async parsingFilms() {
+  async M2() {
     return await this.rabbitM2Service.send({
       cmd: 'M2-SERVICE',
     },
