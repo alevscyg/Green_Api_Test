@@ -1,4 +1,4 @@
-# API
+# Green_Api_Test
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
@@ -35,42 +35,13 @@ $ npm install
 
 ## Running the app
 
+
 ```bash
+# start green_api in watch mode 
+$ npm run start:dev green_api
 
-# start with docker in watch mode
-$ docker-compose build
-$ docker-compose up
-```
-```bash
-# start microservices in watch mode 
-$ npm run start:dev microservices
-
-# start service films in watch mode 
-$ npm run start:dev films
-
-# start service genresnames in watch mode 
-$ npm run start:dev genresnames
-
-# start service genres in watch mode 
-$ npm run start:dev genres
-
-# start service countriesnames in watch mode 
-$ npm run start:dev countriesnames
-
-# start service countries in watch mode 
-$ npm run start:dev countries
-
-# start service persons in watch mode 
-$ npm run start:dev persons
-
-# start service videos in watch mode 
-$ npm run start:dev videos
-
-# start service new-auth in watch mode 
-$ npm run start:dev new-auth
-
-# start service comments in watch mode 
-$ npm run start:dev comments
+# start m2 films in watch mode 
+$ npm run start:dev m2
 
 
 
