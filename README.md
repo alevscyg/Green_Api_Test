@@ -31,6 +31,7 @@
 
 ```bash
 $ npm install
+npm i cross-env
 ```
 
 ## Running the app
