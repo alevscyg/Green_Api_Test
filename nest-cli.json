@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/green_api/src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "webpack": true,
+    "tsConfigPath": "apps/green_api/tsconfig.app.json"
+  },
+  "monorepo": true,
+  "root": "apps/green_api",
+  "projects": {
+    "green_api": {
+      "type": "application",
+      "root": "apps/green_api",
+      "entryFile": "main",
+      "sourceRoot": "apps/green_api/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/green_api/tsconfig.app.json"
+      }
+    },
+    "m2": {
+      "type": "application",
+      "root": "apps/m2",
+      "entryFile": "main",
+      "sourceRoot": "apps/m2/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/m2/tsconfig.app.json"
+      }
+    }
+  }
+}
